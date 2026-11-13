@@ -1,0 +1,26 @@
+{
+  "pythonUnitTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "apiIntegrationTests": {
+    "passed": 7,
+    "failed": 0,
+    "database": "pg-mem, not live PostgreSQL"
+  },
+  "dartGrammar": {
+    "files": 4,
+    "errors": 0,
+    "flutterAnalyze": false,
+    "flutterBuild": false,
+    "deviceExecution": false
+  },
+  "adminContractCheck": {
+    "modelManifestSchema": true,
+    "catalogSchema": true,
+    "allFiveClassIds": true,
+    "bundledSha256MatchesExport": true
+  },
+  "realBundleEvidence": "bundle-verification.json",
+  "productionReady": false
+}

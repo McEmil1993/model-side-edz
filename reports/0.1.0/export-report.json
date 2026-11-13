@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "sha256": "d74da76facdbd5f2c4e6a549c08712b5c803930ecbd533d8ed33866810ab1a6d",
+  "bytes": 1948220,
+  "labels": [
+    "bangus",
+    "dalag",
+    "hito",
+    "karpa",
+    "tilapia"
+  ],
+  "inputShape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "outputShape": [
+    1,
+    5
+  ],
+  "accuracyVerified": false,
+  "goldenCount": 40,
+  "maxOutputDifference": 0.014209151268005371
+}

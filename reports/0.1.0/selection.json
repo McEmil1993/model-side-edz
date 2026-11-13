@@ -1,0 +1,10 @@
+{
+  "selected": "tuned-v0.1.0",
+  "candidateValidationAccuracy": {
+    "market-v0.1.0": 0.6739130434782609,
+    "tuned-v0.1.0": 0.782608695652174
+  },
+  "selectionRule": "Higher validation classification accuracy; rejection threshold frozen with validation positives/negatives only. Two candidate runs. No held-out test pixels used for selection.",
+  "selectedModelSha256": "59e4ee37230d3d89ee728697b7122a12896de88f18185537e220a71c5fe5847c",
+  "frozenAtUtc": "2026-11-12T12:25:31.527099+00:00"
+}

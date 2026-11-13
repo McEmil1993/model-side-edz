@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "reviewed": true,
+  "reviewNotes": "All 250 accepted photos visually screened. Fish-gres repeated setups grouped together; iNaturalist photos grouped by observer across dates. Related species, geography and market domain remain unverified. Quarantined classes excluded.",
+  "classes": [
+    {
+      "id": "bangus",
+      "localName": "Bangus",
+      "scientificName": "Chanos chanos"
+    },
+    {
+      "id": "tilapia",
+      "localName": "Tilapia (Nile tilapia)",
+      "scientificName": "Oreochromis niloticus"
+    },
+    {
+      "id": "hito",
+      "localName": "Hito (African sharptooth catfish)",
+      "scientificName": "Clarias gariepinus"
+    },
+    {
+      "id": "dalag",
+      "localName": "Dalag",
+      "scientificName": "Channa striata"
+    },
+    {
+      "id": "karpa",
+      "localName": "Karpa (common carp)",
+      "scientificName": "Cyprinus carpio"
+    }
+  ],
+  "futureCandidates": [
+    "galunggong",
+    "alumahan",
+    "tamban"
+  ],
+  "reviewLevel": "Source taxonomy plus visual screening for experimental training; not expert certification",
+  "distinctImageReviews": [
+    {
+      "sha256": [
+        "1711564ae45ed2c41caeddb3714adb6a927a8cd66dadd9013e0a36b545e86462",
+        "1d51da75e5a1c41c751875b5ab7639dcaf3f2eaf9e9a14c68d23d8ac582234e0"
+      ],
+      "files": [
+        "bangus-009.png",
+        "hito-031.jpg"
+      ],
+      "reason": "Visually distinct species, body outlines and scenes; coarse average-hash collision, not a duplicate."
+    },
+    {
+      "sha256": [
+        "a39fa915241a6d52c22024005fd2ae46488fc99b406ed4e117ac0623f0657563",
+        "1d51da75e5a1c41c751875b5ab7639dcaf3f2eaf9e9a14c68d23d8ac582234e0"
+      ],
+      "files": [
+        "bangus-038.png",
+        "hito-031.jpg"
+      ],
+      "reason": "Visually distinct species, body outlines and scenes; coarse average-hash collision, not a duplicate."
+    },
+    {
+      "sha256": [
+        "e0e4c211ddac0816e37da4d3d671a39fe212d3686e0a2546c51cbcfcddfbb63d",
+        "1d053e4f7d5a4f1a0b13dca4c9d5127ddf63bd2ba4e2b222313b746bddb600d6"
+      ],
+      "files": [
+        "bangus-031.png",
+        "karpa-010.jpg"
+      ],
+      "reason": "Visually distinct species, body outlines and scenes; coarse average-hash collision, not a duplicate."
+    },
+    {
+      "sha256": [
+        "5da6ede38e296044625d1fb8033e560ba525c7e97f44568f21046b47e5be6225",
+        "76cbc9f877582ad0c607a10c099bcd227eacb40442dd7eb687878389b7347af4"
+      ],
+      "files": [
+        "dalag-043.jpg",
+        "karpa-026.jpg"
+      ],
+      "reason": "Visually distinct species, body outlines and scenes; coarse average-hash collision, not a duplicate."
+    }
+  ]
+}

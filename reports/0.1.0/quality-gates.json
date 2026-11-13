@@ -1,0 +1,14 @@
+{
+  "status": "provisional baseline gates, frozen before held-out test evaluation",
+  "testAccuracy": 0.85,
+  "macroF1": 0.8,
+  "minimumClassRecall": 0.7,
+  "acceptedAccuracy": 0.9,
+  "acceptedFraction": 0.5,
+  "negativeFalseAcceptRate": 0.1,
+  "additionalRequirements": [
+    "Independent Philippine market photos and species review",
+    "Real Flutter Android/iOS preprocessing and latency checks",
+    "Much larger held-out and negative sets; small samples cannot certify field accuracy"
+  ]
+}

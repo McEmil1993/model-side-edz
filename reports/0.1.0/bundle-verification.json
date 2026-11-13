@@ -1,0 +1,121 @@
+{
+  "artifact": {
+    "valid": true,
+    "sha256": "d74da76facdbd5f2c4e6a549c08712b5c803930ecbd533d8ed33866810ab1a6d",
+    "bytes": 1948220,
+    "labels": [
+      "bangus",
+      "dalag",
+      "hito",
+      "karpa",
+      "tilapia"
+    ],
+    "inputShape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "outputShape": [
+      1,
+      5
+    ],
+    "accuracyVerified": false
+  },
+  "classification": {
+    "testAccuracy": 0.775,
+    "macroF1": 0.7602444614209318,
+    "classes": [
+      {
+        "id": "bangus",
+        "support": 8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "id": "dalag",
+        "support": 9,
+        "precision": 0.6666666666666666,
+        "recall": 0.4444444444444444,
+        "f1": 0.5333333333333333
+      },
+      {
+        "id": "hito",
+        "support": 7,
+        "precision": 0.5,
+        "recall": 0.7142857142857143,
+        "f1": 0.588235294117647
+      },
+      {
+        "id": "karpa",
+        "support": 5,
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1": 0.7272727272727272
+      },
+      {
+        "id": "tilapia",
+        "support": 11,
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523
+      }
+    ],
+    "confusionMatrix": [
+      [
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        4,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        10
+      ]
+    ],
+    "testCount": 40,
+    "acceptedCount": 7,
+    "acceptedFraction": 0.175,
+    "acceptedAccuracy": 1.0,
+    "negativeCount": 40,
+    "negativeFalseAcceptRate": 0.075
+  },
+  "benchmark": {
+    "environment": "Windows laptop CPU, Python TensorFlow Lite/XNNPACK; not a Flutter phone measurement",
+    "threads": 2,
+    "warmups": 5,
+    "iterations": 50,
+    "medianInferenceMilliseconds": 1.0484999947948381,
+    "p95InferenceMilliseconds": 1.3587399960670155,
+    "excludes": "image decode, preprocessing, file I/O and Flutter overhead"
+  },
+  "catalogClassIdsVerified": true,
+  "phonePreprocessingVerified": false,
+  "productionReady": false
+}

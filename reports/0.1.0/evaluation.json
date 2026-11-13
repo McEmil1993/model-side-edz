@@ -1,0 +1,112 @@
+{
+  "testAccuracy": 0.775,
+  "macroF1": 0.7602444614209318,
+  "classes": [
+    {
+      "id": "bangus",
+      "support": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "id": "dalag",
+      "support": 9,
+      "precision": 0.6666666666666666,
+      "recall": 0.4444444444444444,
+      "f1": 0.5333333333333333
+    },
+    {
+      "id": "hito",
+      "support": 7,
+      "precision": 0.5,
+      "recall": 0.7142857142857143,
+      "f1": 0.588235294117647
+    },
+    {
+      "id": "karpa",
+      "support": 5,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727272
+    },
+    {
+      "id": "tilapia",
+      "support": 11,
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1": 0.9523809523809523
+    }
+  ],
+  "confusionMatrix": [
+    [
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      4,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      10
+    ]
+  ],
+  "datasetVersion": "043aa95a4021dc4d1ce07b075accc46c5a54fdbe7e2525e83fde94731c1ef6aa",
+  "threshold": 0.977,
+  "testCount": 40,
+  "acceptedFraction": 0.175,
+  "negativeCount": 40,
+  "negativeFalseAcceptRate": 0.075,
+  "acceptedCount": 7,
+  "acceptedAccuracy": 1.0,
+  "imageAccuracy95PercentInterval": [
+    0.6249660359590695,
+    0.8768404674532148
+  ],
+  "intervalCaveat": "Image-level interval only; grouped captures reduce effective sample size. Not Philippine field accuracy.",
+  "negativeFalseAcceptCount": 3,
+  "negativeBreakdown": {
+    "nonfish-sparrow": {
+      "count": 21,
+      "falseAcceptCount": 3
+    },
+    "unsupported-barramundi": {
+      "count": 19,
+      "falseAcceptCount": 0
+    }
+  },
+  "qualityGateResults": {
+    "testAccuracy": false,
+    "macroF1": false,
+    "acceptedAccuracy": true,
+    "acceptedFraction": false,
+    "minimumClassRecall": false,
+    "negativeFalseAcceptRate": true
+  },
+  "numericGatesPassed": false,
+  "releaseStatus": "experimental; Philippine market and Flutter device validation pending"
+}

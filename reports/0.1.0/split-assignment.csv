@@ -1,0 +1,251 @@
+split,label,file,sha256,group,group_basis
+train,bangus,bangus-015.png,dfb654eacf108fa58ccdf1e370b43a06ef7a374279d131149528c6a152230409,reviewed-bangus-yellow,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-018.png,5bce0b00398d81e11e91fa6e06256eff23c9e4dbfdff3ace8b42443aacf0f5c9,reviewed-bangus-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-027.png,dd49010a1f7418483d521a29d7d0e4ed3bdaf5b1c8bb6523d6daf0a4069e3935,reviewed-bangus-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-047.png,61a06c0587cc887c122da5f62daf1c6bc43cb445c9f13d78f736c82197b741c6,reviewed-bangus-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-003.png,44254a89bc96d85d156f0b2e0b04b4c01fa9c29cefd4b7dd9ad155d5d6497b7b,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-023.png,34f7a9860cb311e0d489435dcaa9d40cedea362ca80ae7d59306d49a088c5816,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-024.png,99d5a3c86d082594eafdf5b406b18aacc8f69ec86b6831f6d8ccc41915d7328a,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-029.png,fdf185b13c1c0ed52f8929fab592e9a9d19c25f7413605a19c8e2cc410cefd10,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-031.png,e0e4c211ddac0816e37da4d3d671a39fe212d3686e0a2546c51cbcfcddfbb63d,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-033.png,443732fbfdb1e7e2a32a5f7f6128f3a9093a481b4aa9a74b53f18077f8a9bb31,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-043.png,809acdfc7bae8043bb2c892e8095f541f37f6d0e1362d35c686cb02e9a347682,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-046.png,5d8bfc8d7d53f2f281b629251f7c64476651dc37aee80032eb5b66aaf5e7c79a,reviewed-bangus-concrete,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-007.png,ea3e6ca8792e0d716d40af5744ed11656048d657dc9e264025bd8269e4b33ff7,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-012.png,fd719c6c11196c866a1b30cb64dc64cda6a67d4c3898f39aa259d98365f3b8c1,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-019.png,22a1551f86168e9b36c2cacbdbe708f3a7407271245f3c6d2cd50d6e45df316e,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-021.png,7ccc7aa1a9d462a34930ed743e299c9ef4cf5426c81400c3e63937de88534e39,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-042.png,3dbf79a9e901260fb8e804bc64a3f793af00b18c6df184563e689d817b7b78ee,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-044.png,a3350eda4cbe1bd1d113c29adcf8138cd8a6edc2b37a2742965372d35eea16a2,reviewed-bangus-pavers,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-001.png,f2595f93679e0deedfd60a28231ee7fc1c414d56f594f6f458760b31d194c75a,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-004.png,8faa9411e92f5baa59e81b70d251739f98beb89fa7243376755a68e07327f1f3,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-008.png,55da51ea7b3b80f5ea7ed4e425b01b5887371bd918dcc71663047d5d00b6f69a,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-009.png,1711564ae45ed2c41caeddb3714adb6a927a8cd66dadd9013e0a36b545e86462,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-010.png,4bf2059e5cbbb950f5af6306091e6025235a6545af9cf4ff2b6c51a64831260a,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-014.png,0812446730a04e37361f8d752dfc85532c4f506ad0f2da7115e04d455f5f9bd3,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-016.png,94d41c2887a0ebe89c1d2b670ee25fd71efe7da05d616bbe47a9444be99d85e4,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-025.png,a44a6ebe80deb701b414c1d015d388b09d3b5a954170de97889f4e5221bc0e62,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-032.png,4dd0cfa4e189e21b2458d84151e34ffc34d2b75e2d8c6ee404f1f25e886da961,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-035.png,3356520175bba153746dcb5cd5e814920ed0d5931aa5448fc7bec528592551f9,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-038.png,a39fa915241a6d52c22024005fd2ae46488fc99b406ed4e117ac0623f0657563,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-045.png,0b4faaf56d64879efd409899d7a0e34c635ddbb43e83b0f8e3e6643fa924a466,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-049.png,05cb3ccfdff2bc19dc98b8011d0287a4a0fabdc935f45fffe8099fc6719574df,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-050.png,837ef09e4ec5601f9671bb10d6d41d150c20c2d944afdce87319da650d6ac0e6,reviewed-bangus-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-002.png,299095a8e149aacafcb75e922fd1a8f8846e15dbab1d486c21d980c24ba286e1,reviewed-bangus-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,bangus,bangus-041.png,e7fada144fb08a5eac3e47f659548ebd50e609dcc55b33141890f1a96a8ffb81,reviewed-bangus-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,dalag,dalag-023.jpg,31ef67fbe453e8d86a5b787d874ec00d7498e593a4516458d95a0958273b6521,inat-dalag-geechartier,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-011.jpg,904e78e8a6256823070ebb975564417f4eec74ce5fce461a1e956bbcb48ffc29,inat-dalag-hello_hmemon,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-021.jpg,a7dc6b89dd93aae8da7999ffc6db20f68e0a9ef55803ce96f6929eb08496b330,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-022.jpg,2cbfb258634e9f7fd9dc11213c4a0c44f27b96eb234fe2ec7c04d70e67674067,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-024.jpg,aca36769860ef68644ad985e99fe62b8b28368a672cb57808c32759f673221c2,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-025.jpg,1e89fc54ce6408ab0a83a37add3781e0929dab6152a0f9aac7acabbb4cc8bce9,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-033.jpg,c78817deaaf71966fb48253be53580b53ba7924057e4df58dd9293119bd890ce,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-040.jpg,c6690b637fedb6a6af3e1d729e8f3ed578bc1188ad6f9e71a5f4fc92bcb185ea,inat-dalag-renju,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-016.jpg,208b2095ef8408cd5a7976456e44bfa598841c80a660b9799e373ac3c9dc9903,inat-dalag-mimi_0213,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-017.jpg,50df1fef6dc0c8e4de26a8aebf536353569a75820113c770480cb37783080183,inat-dalag-rainerbreitling,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-030.jpg,4e3c19b1611a87c43d2af8c86a6f0f6d4ba0f413913b03d81c993bf8fee8588e,inat-dalag-deerjacksonhu,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-043.jpg,5da6ede38e296044625d1fb8033e560ba525c7e97f44568f21046b47e5be6225,inat-dalag-kenghung,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-026.jpg,3578c89ea65232a2e72518d581934944f22678cc1da0e5ce6a72913abbc7f8c2,inat-dalag-kristofz,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-010.jpg,5430c246ae1b557582cfeffc1b8051e2bd3b7066d03b859abccb0da873debd17,inat-dalag-manis1,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-008.jpg,c5d2fd2375b851242983a038e61f21e19727cef0356d3ab1080d8317d7616816,inat-dalag-yunglunlin,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-009.jpg,d104940140ef14977487fc04769d1c5c39c4b536d57f5a70781c35cc4808283e,inat-dalag-yunglunlin,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-014.jpg,86ca599c693b6ae2119439a3a62c3ed095dd475e9b0a14fbce25451b71abf40f,inat-dalag-yunglunlin,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-015.jpg,f8db05f8208fd441364655a98e5175ce848a3cb78dedf28a267115290a497301,inat-dalag-yunglunlin,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-039.jpg,92f3c6527ad6d0e48590f578a52d5b01b4847d9d5bfb5c747a53cfd3686c5106,inat-dalag-luluchouette,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-001.jpg,915fc0a8eb3e8f460e65c6e0058131c65d44c1d2be6bb9ff9446ffdd87e7b741,inat-dalag-benkeen,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-002.jpg,d98dd49335d8a71565586730f5a3510729506f843ee3a88fb899f26e214b7b49,inat-dalag-benkeen,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-003.jpg,82441caa862901d903baf3f49d7eec10834dc724d066aa31722e6a8950578e12,inat-dalag-hopeland,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-045.jpg,82cfdf4f017f779e86913df9f42e9e9f931afd1139ecd5ea7924ddc577a0eeee,inat-dalag-hopeland,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-020.jpg,e0e1bef3dcd633677f22772487b5f6adab05cd0e4521b0c0a4a993ced98e969a,inat-dalag-wild3r_life,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-029.jpg,e1cb96a52d212d2f60d5fbf09f8d41f80b758d99ec8410864392e730ef2481f5,inat-dalag-francisca22,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-004.jpg,2aa8991b36ebc0d6a6befa8bd5fcc44d4a6b672959f2d454b0381f2b99809dbf,inat-dalag-esplora,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-027.jpg,84b1363cfdcd60cc871bacf95cc4b3b0a19a57ce325faa4d20650af3cad0ee95,inat-dalag-jujuwild,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-028.jpg,954b9524db0dd5816a27cc143da12484b91257bd83286749dc4f83f922004657,inat-dalag-jujuwild,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-046.jpg,ce1521689c44c59c8451905dc4d945974b63029ec35d2b8e11e870e49cab54d1,inat-dalag-sabarnisarker,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-032.jpg,95166bcb072dae2a85d917903023f5279e6c2b977f635a625a7868449ac4e763,inat-dalag-ruseva,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-005.jpg,a445e0156d84e1dc57ebd51638c1cbb57b1d420ffc4961be80a76c6879c07ad0,inat-dalag-mengchi,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-048.jpg,1e17dc150cb0f292c2fd7b8f19e0690f98c174f2e8cca5c4142cc6b5dfdf6724,inat-dalag-mengchi,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-049.jpg,a1632a03e1841006ab5b0a5f502b9af96cf53ce9abd3db0961df8b47817157c0,inat-dalag-mengchi,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-050.jpg,7722c69da3e79f86928faf9bbf15c184a8712ca0751add087324ab48cf2b53ce,inat-dalag-mengchi,Same source observer kept together across all dates; specimen identity unverified
+train,dalag,dalag-036.jpg,762610c7359e559306d883b611f6f11998dda886c79a579f130decf777e2b4e6,inat-dalag-hadoe,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-039.jpg,ae78c9c80dadca64406474cf35b8ae73191dcdfe7e0201173c3b869fec76a2d3,inat-hito-jvl,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-005.jpg,5c1e822303c01d4efcbeebe6c76ee8c336b7adce761ee97af409dae2c3a311af,inat-hito-abdul_hanif,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-032.jpg,c786b2406153c4738810b71274087bb1866a520bda12ac31f438f658d9d11245,inat-hito-robert_taylor,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-008.jpg,efd3a5056f6e3e43c5623bcb386c44fb29940af3b80d7ce630419bb9fbb37502,inat-hito-lunarjade,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-002.jpg,7cb321bc9fdd68bbdbe8548766a6074dc5d522f2b26612613c4b2a30bdad5107,inat-hito-miguelpodas,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-031.jpg,1d51da75e5a1c41c751875b5ab7639dcaf3f2eaf9e9a14c68d23d8ac582234e0,inat-hito-rodrigo_lazaro,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-042.jpg,df4df7da800b3aaf4ab67bc635a45c13b3edec10f52155cd85248e438b900a96,inat-hito-natashahaggard,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-020.jpg,41521a8c04a9887982f8fd439b9f5fca003b68e2fd5919b95ea779a11f35ffac,inat-hito-zinogre,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-027.jpg,359fbcabf37f9345cf2ad4964d0c7406d17d110ae5aea8d5b2515a924d56bac9,inat-hito-zinogre,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-013.jpg,9a2cb35ba4df0834793b915020241737ea3570522a3bead9e65555fd92a9a1a8,inat-hito-luksza,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-021.jpg,7c5b26e806c7ab3e7516592c1876cdf4bb87a1f5d9f01d9701cf8e4c0928aeaa,inat-hito-gatorhawk,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-022.jpg,398d54279843f32a131fb2de5b1a279ed4ee29aa16e27d5d9f03ca4355613417,inat-hito-sirhanni,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-050.jpg,e5c4aabee9760c2f0dd1180b58f744d3f5788fd5dfd26678675a24e0c1b1cced,inat-hito-ahospers,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-034.jpg,dece22ab2b61e710861fc83cc98caf32f36c0c1806842d4766c65177e14a825f,inat-hito-paulasman,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-035.jpg,5ea48d7b6115ec88fe3ba8c313cb73cbbc358420d0839557200b71c26476fe68,inat-hito-paulasman,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-038.jpg,bdff2b227e9b5ead44f5cfad85e408085849f80f41ef32c88811eb36ca9c1685,inat-hito-elliot45,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-014.jpg,cec46f2fcac83892d4a102f47109e80757c8719402716fc993968d09e0065b87,inat-hito-jiroiguchi,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-004.jpg,d1ddd452f3f174665d97fe7ba29ad6e4e011c3f0503510ead1ed3ba7bfe71f98,inat-hito-baksonya,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-019.jpg,ba71d3b862a595fbc338daa52c1decadc527285f0e58f2714e64be192c7d31da,inat-hito-gabrieljovencio,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-016.jpg,763f6dcab101bec597d7b3ab49dd4e9a06b3096b4ca5fe95da66d5eb9d9472ee,inat-hito-richarddimon,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-026.jpg,561a2bbec6307bf71675ce2d894b86c48828bf3bb51b69a3bcff4ce1b77d8b70,inat-hito-mitchvandyke,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-003.jpg,f0c81874681c7accce23a18d78ad6d1bbd96d1342de825288957b94eba4adc8d,inat-hito-schrodiskitten,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-018.jpg,de7d62f6c4ba10bbfd225651252ba44d543c35b59cdf7ba4fa6a588af5d85acd,inat-hito-kristofz,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-041.jpg,aa84e22fc80f22e05303a0e135e12e8091de3ae062b5d4eaf04f67557a6399e5,inat-hito-tomheijnen,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-025.jpg,2abf17f44b8109ca7a7e37e911f7c54446874fec416bc766ef12e6e18f022dcd,inat-hito-fake_id,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-046.jpg,7a385b87d64143882e3f6b66f3b02328f38e3c201b5dfec9daceef87a4a7ad0e,inat-hito-friel,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-028.jpg,7cb0060d938ad326b5caedf2da94617b47149344a4fe7604d33bfe2c549a5e10,inat-hito-calebcatto,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-006.jpg,1da1c94e8c5d146cc74ab013404eb7df6ee329c92e88dbc8eec9f5093a9ac08e,inat-hito-ongzi,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-029.jpg,86ae77ae06eb77934e208e0f75f8caf07429792ba2f34dffa1d9afa2578ba48d,inat-hito-ongzi,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-030.jpg,e670a9cdf92334a1f08f30bfe9c5b480d4a221d36c732bd96daccac43af7fabc,inat-hito-ongzi,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-007.jpg,dd220db1c9e57cce4b48d760ac6901e9a3c86bf3c8fe0b12bbae753a93c7e0d7,inat-hito-muscicapa,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-023.jpg,21396f5b92916deba5efd109591965534b5c408f1b3aeba80ea5445677d1b632,inat-hito-berniedup,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-024.jpg,f9fce5607987ac5d9fc6e383f181d49f5df9e98da36d1bb8fb81762ab0077ff0,inat-hito-berniedup,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-015.jpg,59c41addf6ff4e6cd407a20779924c25ee29978172dfd56c2c55db1308d17358,inat-hito-malaika_mmc,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-010.jpg,c24d72355cbf5f5729e10a6f819b5a9146076ef55443ff8f6d29bd87685671c5,inat-hito-tomfeild,Same source observer kept together across all dates; specimen identity unverified
+train,hito,hito-011.jpg,6df9f04482a5c04670a04978c5fbf46e9e7e989e3ebef6d17d88097d8a7ab9ad,inat-hito-tomfeild,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-024.jpg,dcb149808cb873d52ad88c162a7cef553a761d0581091ed4d54814011577b348,inat-karpa-mr_capgras,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-025.jpg,cef8f8df77b78f69e63ecb9f74972e8c48494df223fe16a0f11d20c138c5e936,inat-karpa-mr_capgras,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-035.jpg,ac898d259c0422b6c690d8bae330292c6a77511a7dc317c1c91b9d0265a82121,inat-karpa-mr_capgras,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-007.jpg,969975a371bdad2be59cdc925ade5d0fae775e964aa9f0cf2843efb036360155,inat-karpa-rob21,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-049.jpg,5b9c6b8b315746f4b8932b0f6355a9896ee63f4dfdbd6e9eaf9630c821197214,inat-karpa-ranger_lee,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-018.jpg,4e803451130cc9423ad72acfbca0ddd8daa42f850071b13d7f1e28db5c274afd,inat-karpa-ashleyrsteel,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-017.jpg,a159d91be678025f0840d671dd504b4ea0e11d0cfddda97778836c32ab4880d8,inat-karpa-possumpete,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-020.jpg,c7ebdddc9660d3235ef4b6acd98c2616ebd13b9d288a7544df7771fcfe48b912,inat-karpa-possumpete,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-008.jpg,9aac4f16ccada67f4e89aa3270cc8e0400615664dddfb85ad9bb00a4283db929,inat-karpa-pufferchung,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-009.jpg,03d6fa8bfab756cf7590ab0ffcacdc16d4768334521e332960c01de6a7d3bd28,inat-karpa-pufferchung,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-011.jpg,d681dbd6c985d014b335fecf3319b9c0079b589fa10423ed7f43d1834256b2b6,inat-karpa-davito82,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-012.jpg,d1e3097aedfef8d6e2eb1370184dc59c143933070e8a9d260607154db5d01393,inat-karpa-davito82,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-013.jpg,2b36e01510382296d41674fd055807a32b069ab5c041585ff28f3aec5736a217,inat-karpa-davito82,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-022.jpg,679d75a8c85d5f7cb704d6265b854ac252d35884476a6b83d28c1fcad66d7cf8,inat-karpa-ivancumpian,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-045.jpg,d9097093a3bab1ba4c2b88847be288b5d2dd5e29bfcc14006e098c28cf746fab,inat-karpa-ejlin18,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-014.jpg,f86cd74ad398295505d49c38e20c090b18593ed5ed294e6c80f8f3377951c017,inat-karpa-mami_t_t,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-026.jpg,76cbc9f877582ad0c607a10c099bcd227eacb40442dd7eb687878389b7347af4,inat-karpa-codrin_bucur,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-027.jpg,24eaab6cb5a1b222a2155bf6178cfbbcec709c6f15fefc67e57bbeade0434501,inat-karpa-codrin_bucur,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-010.jpg,1d053e4f7d5a4f1a0b13dca4c9d5127ddf63bd2ba4e2b222313b746bddb600d6,inat-karpa-codystricker,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-036.jpg,0ea45ebd439a37f5af3454c5e1d37a24fcff3c2fb64683ac2cd24dfc397767c7,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-037.jpg,0452cbabafe8f72b4c2ea5865b42281332769f5accb5a3acc21c56eb313094e9,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-038.jpg,ba83e8f191426405976ddbb0fb3ef8d42f9f0ad54fdadb017a2fd20e4fc882ab,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-039.jpg,74b972ffb2886996ec9931cb9e024a7b13a7a1989ddcf941c27ba4e22e3fba47,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-040.jpg,eaa25d6f09ab962f90aa24fc299acdc32a05d89336d21eff9b2c49e7eb5fc9a8,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-041.jpg,bf6bc37dd5dd753d3bf4cbc091d99eef56e0b1423b86e36c70b39e4001f591ce,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-042.jpg,00fc7c04a5d5ad13e3a449513065f94b98039abbb741c730d6c706b8877e1109,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-043.jpg,ebfd36b5076905d9774d6f84ebcc4a08d29a7fcd7674bea8525651b4122c8dec,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-044.jpg,d10279038c636f14f1ccbb1e208bf83aa0114cb5e2248fb587767881a536d257,inat-karpa-ewoutknoester,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-031.jpg,99e1de1456f183a656d1137d33d7c84f9de1f0052f9b85730be53dd1ff6cb4f8,inat-karpa-davidsandler,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-006.jpg,76a8362a45b3ce4541cca9428389115434ff543691ef58b5cca762aa53c46586,inat-karpa-jameswfh,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-032.jpg,1f4a9d4ae4dddd27d0f1e4f42872cd1b55832ed479e17f9b5acc8397d1e5773e,inat-karpa-toad-wife,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-050.jpg,ea5b1bf4db92666fb580cbd7dc7324456d0857f0f845f52da21f13b86cc25111,inat-karpa-threeagoutdoors,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-034.jpg,da0be4abda3f22c7ca7b45951d3e315bd5f07c5949249ff1d9ce870a068c1829,inat-karpa-dan_johnson,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-015.jpg,24fd9f70d209cf94ced51e24a8eb2b8624f3ac8fe0def15bd6b704163ed97686,inat-karpa-eml23,Same source observer kept together across all dates; specimen identity unverified
+train,karpa,karpa-033.jpg,a5a520e336c29ed7cdcf77bfdaa4f7ca0e6927a263f24f0be3a0adafe138c835,inat-karpa-reversebeartrap,Same source observer kept together across all dates; specimen identity unverified
+train,tilapia,tilapia-011.png,6bc48af9698a08fe08a0feb6afab995e6f07d473120e1fd2ab33a3dcb49cf115,reviewed-tilapia-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-012.png,f597be9435dbb503cfae143bf85c1b86d134b4131dc42d45344a27e35ea9ad81,reviewed-tilapia-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-020.png,c0d2c07e229ff7e597180883593f1598ef8b62147f630105e9fc171f7dc7314d,reviewed-tilapia-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-045.png,67a74c3248d2ba182e83ea0ae18c7000f2e51b1da939af557393b3a6a47580af,reviewed-tilapia-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-048.png,5e2de874ab05ca581e70014858f961c1c10c92927611ea8fab67431b0e21e287,reviewed-tilapia-blue-tile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-013.png,f5a2c99981ff5e99de871259396a12cd3a365521af7073df344059378237e803,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-015.png,670abf3c85f6e3be52b3a046d5401930dc86f6a8f98a34d9f030ef1d77739a9f,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-021.png,5fafc44fe3fdac092a8a76a74d86f41a950c88166dede2669528ad7761c17f6a,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-025.png,185a28bfab5a98edeb366c39a8f2178676febde1c8cf0636cc02726e6c9196bb,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-031.png,0fcad45ef69471e548af6444bf0227e0a3f485dffb3bcbba244cf0d7733e4774,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-032.png,6a90fa19f74afea5a9573edf52608c5b05f82f7326e9f0ec0afd986ecdf719c4,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-040.png,2052c0fa06aee0de7615353068cdedfcb1fe1cdb96561a7394243c1c96f39351,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-043.png,191fcad0b18e405eb0c5755a7773d8f5059611a91a3bc16bdd57487a458d9032,reviewed-tilapia-plastic,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-014.png,d5a48fe8710b41da73c6f1af4939e70da3f88ac296ee930e774111c655ce4fb0,reviewed-tilapia-green-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-041.png,9f0b89252cf150d2e962f5122144ae9d478fda129242443ffdd134ccb69582ce,reviewed-tilapia-green-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-022.png,f9cf8984fe3ab650ba1a9925aefc13cdd964994f489526018532c6824d3d1f4b,reviewed-tilapia-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-044.png,480e066cf90da5275ac0576e86a2f24cc6d72c1bb8a5a7cf24fe4170813fd644,reviewed-tilapia-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-050.png,9733f5d84540af05a65931b2be54de4b0b55efc1328dd914967c43b27f87f8e6,reviewed-tilapia-sack,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-010.png,e519f8369f0d4e85dfa13a8f12476a9343eb6145c08d1da7d368bbce36ab4d9f,reviewed-tilapia-pile,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-005.png,fc0bbed4609ee748eaf639a88eb14946078f306599f1e44ba4f40a38f1e3fef9,reviewed-tilapia-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-017.png,94ef69b4a996f4b1c522c42697c9151200e2f26ca55d85211286fed616f38b1b,reviewed-tilapia-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-034.png,61f08fd159f6992f5496312829377307cbeb463bde7d303f01d0fc3eb73766f5,reviewed-tilapia-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-037.png,3dbce735852fa4751e51946602d4a5d84c08d2d994e9a2aa6d4e069a9574fba1,reviewed-tilapia-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+train,tilapia,tilapia-042.png,6f02fe470eaf2718d55a4c082dd9139f7607ace593f805fb6c4db111f8d7b8e5,reviewed-tilapia-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-006.png,9d54748119b67768a926ddd6f5209bbb23612227493ec8a417ca0c7c78d2fb09,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-017.png,1542eca2340a93f58774f64cb8736348097ab577f06e4c8e145667badb567dee,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-020.png,8255818df68d9d1c38eadffc6474477f943f1ac60e4bd2125bf754a91c7b845e,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-022.png,12331de8bd95798c144665e5887fa16a515e2ff05343cd235067b68e6e9ec926,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-036.png,8ab7339efeae6488b1a7b1fdfece4c2ad4678d40c515d518ce6fa290a738831a,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-037.png,965856e29081f5c7add49dd1f8c5ad54db12ba82f445af451ed451c1d9784021,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-039.png,c9d97b43628136c36fdc39ed5e8292fb5aac7c7b31d23060a2d0fbe4c7a332c0,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,bangus,bangus-048.png,dadbaf73a0a177ac2aa050cdd9d551ebf50ebeafce7535e7bd45ae3a26f30afa,reviewed-bangus-red-tray,Conservative visual background/setup cluster; specimen identity unverified
+validation,dalag,dalag-041.jpg,1612816ea35e411f0888f23e5f4b1a9b205a12e6152581babb0d8c3de47b4b95,inat-dalag-tatsutomo,Same source observer kept together across all dates; specimen identity unverified
+validation,dalag,dalag-047.jpg,58e3cbfb10c6e8c4955778875e428d3f7c98b993a752cac20587aec7bbfed845,inat-dalag-tatsutomo,Same source observer kept together across all dates; specimen identity unverified
+validation,dalag,dalag-042.jpg,60b63dee175f99ff64b8fb504474d4cacce15dc7fab2738f2d58ff702fda3838,inat-dalag-jeanjacquesgodon,Same source observer kept together across all dates; specimen identity unverified
+validation,dalag,dalag-006.jpg,e1bdf4db0ae2aef19e2ff8aad312559fd1cfe3c040b7df18c6d42faec3c149ae,inat-dalag-jumping1127,Same source observer kept together across all dates; specimen identity unverified
+validation,dalag,dalag-037.jpg,16218cc322c7b9f88f4641fd3f56efa3d9dc3e1d848635d00d0865084bff31e2,inat-dalag-johnnypantw,Same source observer kept together across all dates; specimen identity unverified
+validation,dalag,dalag-044.jpg,1b5495b1f22334a22fcd31fe8a2388307e6483997c72b3cc052e131ee084b134,inat-dalag-panchanpartith0085,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-044.jpg,67288f0c4f7f19ca468d56a86238ad466a7fcfd0535935301cbba37707c803d7,inat-hito-shauns,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-017.jpg,ebc78db0dda4e234c14496e2ebc464d5f56221de4a373e15e5e067f7aee86d43,inat-hito-ryanvanhuyssteen,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-048.jpg,63e6a282b5a301be28c757837b09fa4a5d7371683932cfea137b0bcad5d2fa90,inat-hito-andrewdeacon,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-049.jpg,b5ac2002e88f31d6e467e23b0ac70dfd883fce9e57cd6ad9352434e46dd93111,inat-hito-andrewdeacon,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-047.jpg,1b76661aebbb33098827800fea5f8ca8e4e40c8638ba753252483e9575c20ade,inat-hito-shaunak,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-036.jpg,848796b6ab5493a803f4ddbeb4bd950c139c04f0fb9b414e3a235c1f8052df8c,inat-hito-gancw1,Same source observer kept together across all dates; specimen identity unverified
+validation,hito,hito-033.jpg,56e68816b427dd53144a244f4ca0d24521abdf0acd8a3166254183bdb0f9b484,inat-hito-m_d,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-046.jpg,a0071cc386b3a4a79b1cf817b7e22fef1ab7bd9fe95a44a4a74481155662a458,inat-karpa-fishesoftexas,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-047.jpg,c8dae09c8c00f4f7371f8432a4df5a50d0bfda5aa500223e5db75dfc5cc0d238,inat-karpa-fishesoftexas,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-048.jpg,469f859b09eee8ab03bd76324591ad8dbe38a908bd3fe9edf97b0822d242b1fd,inat-karpa-fishesoftexas,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-029.jpg,f62aaf594766abb6dda6a4e08caa15ee94a6cf9555c8fc8a092830871b1d3850,inat-karpa-gianluca_congi,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-030.jpg,b2b14cd48ff19915ebb88aac73734836d8f388ac57f6436a969e0c6e5a7fa2fe,inat-karpa-gianluca_congi,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-003.jpg,c9379a0e00cd384a2f8b27c64873f2a156189a7eae9dfc955f47314d934c29e0,inat-karpa-qfc79,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-004.jpg,c7404d84e49ae51d638e3eac9da71c072deab92bc42d394292443c7f08a36230,inat-karpa-qfc79,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-005.jpg,585814024f9e6dd31d3add3da8ca3ac15e428c2732651de3c8a7916f6eca9133,inat-karpa-qfc79,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-001.jpg,2eae59412f077748c9b36c3fc5c581ea8d1f63e49eac0a47b2ee0237d495d92e,inat-karpa-mbronikowski,Same source observer kept together across all dates; specimen identity unverified
+validation,karpa,karpa-002.jpg,03a4074324641047223e9d7fd0db12d476449b87a909908203fb041a6d24a07c,inat-karpa-mbronikowski,Same source observer kept together across all dates; specimen identity unverified
+validation,tilapia,tilapia-001.png,1cc038a0738921b3b653cfd3ae8ac596016943aaff252d25447339d21627c2f9,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-006.png,ec2c92b25c81ff1176487ce27fd04cb3c6f319e9c3039ca69df759f42e561565,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-018.png,6aca09bdaee30c17db78b38314ae4a793417a28a038e9991ea40285e83fa7b22,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-019.png,4d8da5fdb7329653b7bf47e9cb48dbb1de26868aff583deff537ecaf4e1f90f1,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-024.png,efc3ebb75eb4163150d661c5616dec95b8a99420b789f0ed25f2a2df18058941,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-033.png,35ca8800e4f60f077ad3397a4746d74c52ea1197ec03cb6e5ff88cb9a9638e47,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-038.png,d5017995804521a798f891197b3986506c5fc1a5bca853e8d6c8f72beaaa0c7d,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-049.png,856bb6bc2abf72578033bc547a722d0a106776e140a9f48f0193e19788fcc976,reviewed-tilapia-pavers,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-008.png,13eaacafd101d8ff613522e93375c897cf0012e941a4a0c18a8bf04232ae696a,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-023.png,a5cfe6118505cec9ae067b6fc3027b4d144e937482c2a09257b62095de17fe9f,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-026.png,7e8c3d7fc625157dd149c6f50787b56acb6c80deec62fc2849090cd9e7d2177e,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-029.png,7af091c93fbc69584168c1d1683dae49200bd592d99d0c4ef4917e7baea3121b,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-039.png,a97670a2560fbc114f288bb980587df68d4591df2509bfa24af03e6810d2d050,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-046.png,a344184fce65c0068946d8db4c5def0460db5153d9130e8807ccd0e4dffb5afc,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+validation,tilapia,tilapia-047.png,b21b879d25d12b84a6685d77d9342d538b2615d5b0913075a5886bca260c1cce,reviewed-tilapia-concrete,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-005.png,e91de3f10b79ecab68c6c2756808b7b733197527fc3bd235e438fa64d8be2acb,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-011.png,8765c730e159fd22bd1bbfccb33e15e6360d84cc501c4e76544484e0a2a562b1,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-013.png,8fd91969091eb58b90f9c7fd43aaa5c0dccf2451f409083a9c32848f0b70db04,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-026.png,5c7737d6bb5974c39de9e10c5aaa6a95958ecac07db262ff65a60af262684eb8,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-028.png,f3e344768839d93f306feadfb48257c44e5c028ac7027df14ba36ea5408c4db9,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-030.png,5a35f0ff3995753c8cfa867bbeca4a82fcc943ab8251ddd76c9250703f6a3514,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-034.png,c37d62f9cfe8b0200fcd89519825abe849ee8d6a715ed2c10b354774522a7882,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,bangus,bangus-040.png,ed81cad2dd7f69467e104ae19c8b839e6212e05b11968356ff9ec2b3f2e6c67c,reviewed-bangus-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,dalag,dalag-007.jpg,a9b2311d52fbb4927f727d9ad9f095765c4c56927ea9ffe9cff2add2751eda8c,inat-dalag-mickey_wu,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-031.jpg,5c8152bb3fb75ec9927f6c044b4ee3dde8fc106d9f8697344cb8993c3d270d91,inat-dalag-agnestrekker,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-018.jpg,23048dee006585e4e717928778822fa31491e09e604deb1c45513c7632ce0f51,inat-dalag-cowturtle,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-019.jpg,a5048134e041a83e47498ed0cef79fd2b374ec12097d6b45f84f927eec390ea3,inat-dalag-cowturtle,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-012.jpg,18817ba97d1cb2b810a373514354719ea277719348b44b213384e4f11c5a9aaf,inat-dalag-abuhamas,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-013.jpg,1e6c81710d511edf759c7cf0bbf07816c25b4f108aec5a26dbbd33829d8000f1,inat-dalag-abuhamas,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-038.jpg,f9871c949e7dd8c16d724fb90ab014b67ecd19e7ab60cb6c275c4b477a661016,inat-dalag-abuhamas,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-034.jpg,4e619211c30b6b3dc4f369a733a322401f35b7335b3c959000fa160b5b379051,inat-dalag-riverahlquist,Same source observer kept together across all dates; specimen identity unverified
+test,dalag,dalag-035.jpg,bb585edce441463e349f2c27b34cb9ad924ce1218990a2e7bcd4acd7de270c0e,inat-dalag-riverahlquist,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-040.jpg,8f2bc212687daa71c7347ed73c2b4d37db1dc4b2ac3bf823736dcaf41025ea90,inat-hito-rawcomposition,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-001.jpg,f57efd9a65a69390424fb80747ead5269197ee0d858527cc5485643f07037e4d,inat-hito-fynbosfia,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-009.jpg,434a63ee73c610af106c7153e868ccc521fcc9a43817666961fddefb2309866c,inat-hito-brendancsmith3,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-037.jpg,3a07b265cd9774ce070f8dc0b6c5d548c88e445800e709bdb324f256888195ff,inat-hito-lucykeith-diagne,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-012.jpg,6a4200389bd1da3a3eb6aa05a13a24936d127b71d286de5b2e7e26861e0c2a4a,inat-hito-sammyboy2059,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-043.jpg,1995a4c3719624e70c9d9d8880f762fdbc08904aa8512a09cb581e139ba8ea5b,inat-hito-wilderness_botswana,Same source observer kept together across all dates; specimen identity unverified
+test,hito,hito-045.jpg,563b517ef094a75dc719135a88499b8992767fd469b804053d2335faf779b277,inat-hito-wilderness_botswana,Same source observer kept together across all dates; specimen identity unverified
+test,karpa,karpa-021.jpg,6e8149316a5e70fe1225961c72960cfdf9f50a92fb626d08df07ff444ab18875,inat-karpa-carson204,Same source observer kept together across all dates; specimen identity unverified
+test,karpa,karpa-019.jpg,d3a4bbaf09cfd0a4335c47206f126469112f2c809f0ce22775166a29de4a0991,inat-karpa-feralist,Same source observer kept together across all dates; specimen identity unverified
+test,karpa,karpa-028.jpg,626c7d3c7868b4b3146623f5aeca1b2d8fc612d911cd78f38741308c6078bebe,inat-karpa-feralist,Same source observer kept together across all dates; specimen identity unverified
+test,karpa,karpa-023.jpg,df789849cb039448913d9caefda26b3ca10f334fb70a69f7ad0bcd88eba6a798,inat-karpa-evgeniq_benihanov,Same source observer kept together across all dates; specimen identity unverified
+test,karpa,karpa-016.jpg,7bbc0c17a511427f603dd20725d468bb77d3c3d4698d1a2d4377330d048a816b,inat-karpa-samuelpaitreault,Same source observer kept together across all dates; specimen identity unverified
+test,tilapia,tilapia-004.png,499b9a71879ce5094e25e2535bda05676f544f60f1812a6ad9da0346947e4a15,reviewed-tilapia-yellow,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-007.png,1b3e17b17f5fb5fae039d8dd1e9dd6b0a2e7796afda8602b6ae4a81993861805,reviewed-tilapia-yellow,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-028.png,a6f5d9cedbd10f22b37e0408de1b1ea88d83eb6fcc212bce40917b9cbe2488ea,reviewed-tilapia-yellow,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-030.png,3d79e881f8af4ea01a62ab542247e3b9447d70f69cc86fa4b0500d46d42a268c,reviewed-tilapia-yellow,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-002.png,b6dc4c369d70476d0672dc10c090b29787dc119f0808f245ac5b53e2ad923024,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-003.png,eb79ae69343a240f9b675fcfb597d706fdf5e66956ab7d43d2685b3ebabded1b,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-009.png,315e55bae1f66f40e25ee569a9a58196e9bd4cba5a7f32c6dfc1657a0dc91b03,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-016.png,b7b29ed4351a17f2a149ac492501fcef47debcf1a65c144cafdb2904fbd79453,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-027.png,ed8f23d2d9dc57bccc5ae78840d6da412b52e952e3316e514adf9e01acf11801,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-035.png,6fd1ba64fc822427b869a1d4435e9f8619ce3fcf0d71d625b4f54823b5f06555,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified
+test,tilapia,tilapia-036.png,e19d944270d411e1a96e729cecb4ff36cacb96ee261c512ae12776e448780332,reviewed-tilapia-white-tile,Conservative visual background/setup cluster; specimen identity unverified

@@ -1,0 +1,53 @@
+# Local datasets, downloaded photos and trained/exported artifacts
+/data/
+/artifacts/
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+*.ckpt
+*.ckpt.*
+*.weights.h5
+
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Credentials; retain safe configuration templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Downloads, logs and temporary files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.log
+*.tmp
+*.temp
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Python source, requirements, config, dataset CSV manifests,
+# attribution documents and evaluation reports available to Git.

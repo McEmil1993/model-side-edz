@@ -1,0 +1,22 @@
+{
+  "validation": {
+    "count": 46,
+    "accepted": 10,
+    "correct": 37,
+    "acceptedCorrect": 9
+  },
+  "test": {
+    "count": 40,
+    "accepted": 7,
+    "correct": 31,
+    "acceptedCorrect": 7
+  },
+  "validationNegatives": {
+    "count": 32,
+    "accepted": 2
+  },
+  "testNegatives": {
+    "count": 40,
+    "accepted": 3
+  }
+}

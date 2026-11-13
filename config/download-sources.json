@@ -1,0 +1,69 @@
+{
+  "dataset": "Fish-gres Dataset for Fish Species Classification",
+  "version": 2,
+  "doi": "10.17632/76cr3wfhff.2",
+  "page": "https://data.mendeley.com/datasets/76cr3wfhff/2",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "creators": [
+    "Eko Prasetyo",
+    "Nanik Suciati",
+    "Chastine Fatichah"
+  ],
+  "captureLocation": "Traditional markets in Gresik, East Java, Indonesia; not Philippine-captured photos",
+  "classes": [
+    {
+      "id": "bangus",
+      "localName": "Bangus",
+      "scientificName": "Chanos chanos",
+      "archive": "Chanos Chanos.rar",
+      "fileId": "fbe5d3bb-46a7-4708-b709-5ffd2ec67354",
+      "sha256": "21d0d551681f56d6c4587a356f0d316c01820f55413330da45707bf45adce5eb",
+      "bytes": 176253739,
+      "eligible": true
+    },
+    {
+      "id": "tilapia",
+      "localName": "Tilapia (Nile tilapia)",
+      "scientificName": "Oreochromis niloticus",
+      "archive": "Oreochromis Niloticus.rar",
+      "fileId": "b0cfa595-2abf-4395-a174-f584bee4b4e8",
+      "sha256": "9580e5edc68bde922c3d329fb24acc2085c3af5ee9564a985ab5e16a5f3df1b9",
+      "bytes": 193576102,
+      "eligible": true
+    },
+    {
+      "id": "alumahang-bato",
+      "localName": "Alumahang bato (island mackerel)",
+      "scientificName": "Rastrelliger faughni",
+      "archive": "Rastrelliger Faughni.rar",
+      "fileId": "952d3704-03aa-4d93-af50-98803dcbfce2",
+      "sha256": "c5b8e8b9fed6231e35d20d0303320b39c79e6f3974025d85a5886304c4c88bef",
+      "bytes": 180902971,
+      "eligible": false,
+      "reviewNote": "Quarantined after visual screening raised morphology/label concerns. Do not train or reassign a species without expert review."
+    },
+    {
+      "id": "saramulyete",
+      "localName": "Saramulyete (goldband goatfish)",
+      "scientificName": "Upeneus moluccensis",
+      "archive": "Upeneus Moluccensis.rar",
+      "fileId": "397a6d57-88ca-4873-8f41-98972d2dab37",
+      "sha256": "0dcf7254304fdcc37aa61a6c77e4fddbd89c9ac3384d349b0d1b027f2638ba2e",
+      "bytes": 187318640,
+      "eligible": false,
+      "reviewNote": "Quarantined after visual screening raised morphology/label concerns. Do not train or reassign a species without expert review."
+    },
+    {
+      "id": "mamali",
+      "localName": "Mamali (fourfinger threadfin)",
+      "scientificName": "Eleutheronema tetradactylum",
+      "archive": "Eleutheronema Tetradactylum.rar",
+      "fileId": "6f8cd9fa-3bcf-409c-a33d-ee6f72f9302f",
+      "sha256": "d8d9ce702cd418c939623651dbe02317955dfba31663ab7ddb39460e3e485dd5",
+      "bytes": 78561448,
+      "eligible": false,
+      "reviewNote": "Quarantined after visual screening raised morphology/label concerns. Do not train or reassign a species without expert review."
+    }
+  ]
+}
