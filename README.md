@@ -4,6 +4,124 @@ An actual **experimental MobileNetV3-Small model 0.1.0 is trained and bundled** 
 
 Read [the model card](reports/0.1.0/MODEL_CARD.md), [evaluation](reports/0.1.0/evaluation.json) and [actual bundled TFLite verification](reports/0.1.0/bundle-verification.json). Do not claim 100% accuracy from the seven accepted test predictions. At threshold 0.977, only 7/40 known fish photos were accepted, while 3/40 negative photos were wrongly accepted.
 
+## Start here after cloning
+
+`model-side` is a Python training/export pipeline. It has no web server, APK build or required Docker image of its own. Choose the workflow you need:
+
+| Goal | Required work |
+| --- | --- |
+| Build admin Docker | Keep this folder beside admin-side; Docker copies `model-side/validate.py` and installs the validator dependencies itself. No training/dataset restore is required. App-side shared catalog/assets are also required by the current Dockerfile. |
+| Use the existing Flutter model | Keep `app-side/assets/models/model.tflite` and `manifest.json` together. No retraining required. |
+| Train a new model | Set up Python, restore/review photos, prepare splits, train, calibrate, evaluate and export below. |
+
+Clone/place the folders as siblings when using the current Docker build or default Flutter model paths:
+
+```text
+maam-edz/
+  admin-side/
+  app-side/
+  model-side/
+```
+
+If they are separate Git repositories, clone each into its matching sibling directory. The training pipeline itself can run in a standalone model-side checkout; default commands referencing `../app-side/` require that sibling or explicit `--model`/`--manifest` paths.
+
+### 1. Python setup
+
+The recorded setup used **64-bit Python 3.12** and CPU TensorFlow. Dependency installation and the first pretrained ImageNet weight download require internet. Commands below start from the model-side folder.
+
+PowerShell (no activation or execution-policy change needed):
+
+```powershell
+cd model-side
+py -3.12 -m venv .venv
+./.venv/Scripts/python.exe -m pip install --upgrade pip
+./.venv/Scripts/python.exe -m pip install -r requirements.txt
+./.venv/Scripts/python.exe -c "import tensorflow as tf; print(tf.__version__)"
+```
+
+If `py` is unavailable, use your installed Python 3.12 executable instead. On Windows Git Bash:
+
+```bash
+cd model-side
+py -3.12 -m venv .venv
+source .venv/Scripts/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+On Linux/macOS, create with `python3.12 -m venv .venv`, activate with `source .venv/bin/activate`, then run the same pip commands. The previously verified environment is Windows/Python 3.12; other platforms require their own dependency/device validation.
+
+### 2. Restore the ignored dataset
+
+Git contains Python source, `requirements.txt`, `config/`, `dataset.csv`, source/license records and evaluation reports. **`data/`, `artifacts/` and trained weight files are ignored** and will not appear after cloning. CSV manifests describe images; they are not the image data.
+
+Install **UnRAR or bsdtar with RAR support** before restoring Fish-gres photos. On Windows the script also detects `C:/Program Files/WinRAR/UnRAR.exe`. A GNU tar executable without RAR support is insufficient.
+
+PowerShell, from model-side:
+
+```powershell
+./.venv/Scripts/python.exe tools/restore_selected_dataset.py
+./.venv/Scripts/python.exe tools/restore_selected_dataset.py --verify-only
+./.venv/Scripts/python.exe tools/prepare_training_review.py
+```
+
+In activated Git Bash/Linux/macOS, replace `./.venv/Scripts/python.exe` with `python` in the remaining commands.
+
+The first command downloads the frozen 250 selected photos using tracked source URLs and checksums. The second verifies them; **`--verify-only` does not download missing images**. The third regenerates local grouped splits for this machine and updates the reviewed species registry. Inspect any tracked config changes before committing.
+
+Source archives are larger than the final selected photos. A removed/changed remote photo or different rendering can fail checksum verification. Keep a private backup of the original `data/` directory; never silently substitute another image to bypass a failed checksum. After moving a dataset to another computer, rebuild splits because some recorded paths/dataset fingerprints are machine-specific.
+
+### 3. Train, calibrate, evaluate and export
+
+The example below creates a **new run** under `artifacts/run/`. Preserve an existing folder first or choose a fresh name and use it consistently. Training duration and measured accuracy can differ from the recorded baseline.
+
+```powershell
+./.venv/Scripts/python.exe train.py --splits data/splits.json --output artifacts/run --epochs 40 --fine-tune-epochs 12 --batch 8
+./.venv/Scripts/python.exe tools/prepare_negative_images.py
+```
+
+Review the downloaded unsupported/non-fish contact sheets under `data/review/` and their source/license metadata before continuing. This helper can obtain different negative images on a fresh clone; it is not an exact restoration of the earlier baseline's negative evaluation set. For exact baseline reproduction, retain the frozen negative images/manifests and update their local paths deliberately.
+
+Then freeze a threshold from validation, evaluate the held-out test set and export:
+
+```powershell
+./.venv/Scripts/python.exe calibrate.py --run artifacts/run --splits data/splits.json --negatives data/validation-negatives.json
+$threshold = (Get-Content artifacts/run/calibration.json -Raw | ConvertFrom-Json).threshold
+./.venv/Scripts/python.exe evaluate.py --run artifacts/run --splits data/splits.json --threshold $threshold --negatives data/test-negatives.json
+./.venv/Scripts/python.exe export.py --run artifacts/run --splits data/splits.json --version 0.2.0 --float16
+./.venv/Scripts/python.exe validate.py artifacts/run/model.tflite --manifest artifacts/run/manifest.json
+```
+
+`0.2.0` is an example new version; choose an unused version for each release. Do not copy the old `0.977` threshold onto new weights. In activated Git Bash/Linux/macOS, read the run's threshold with:
+
+```bash
+threshold=$(python -c 'import json; print(json.load(open("artifacts/run/calibration.json"))["threshold"])')
+python evaluate.py --run artifacts/run --splits data/splits.json --threshold "$threshold" --negatives data/test-negatives.json
+```
+
+Use that command in place of the PowerShell threshold/evaluate lines; other commands have the same arguments. Do not select/tune a model using held-out test results. Read the generated calibration/evaluation evidence before publishing; a successful export/structural validation is not evidence of production accuracy.
+
+### 4. Output and admin upload
+
+| Path | Purpose |
+| --- | --- |
+| `artifacts/run/model.keras` | Trained Keras checkpoint |
+| `artifacts/run/calibration.json` | Threshold for this exact model |
+| `artifacts/run/evaluation.json` | Measured held-out results |
+| `artifacts/run/model.tflite` | Offline mobile model to upload |
+| `artifacts/run/manifest.json` | Matching labels, preprocessing and evaluation metadata |
+
+In admin **Models & releases**, upload `model.tflite` together with its matching `manifest.json`, run Validate, review evaluation evidence, then explicitly publish with a catalog containing every model label. The current app's native model sync downloads compatible published releases; a new fish record alone does not train a new class. A draft upload is not automatically active. Keep a separate private backup/release artifact store because `.gitignore` excludes the generated weights.
+
+To test the newly exported model locally without app-side:
+
+```powershell
+./.venv/Scripts/python.exe predict.py data/raw/bangus/bangus-001.png --model artifacts/run/model.tflite --manifest artifacts/run/manifest.json
+./.venv/Scripts/python.exe -m unittest discover -s tests -v
+```
+
+The sections below retain the detailed **historical 0.1.0 baseline** commands and evidence. Their `python` commands refer to the configured virtual environment; in an unactivated PowerShell use `./.venv/Scripts/python.exe`. Its fixed output paths and threshold are for that historical run, not a template for a newly trained release.
+
 ## Environment
 
 From model-side in PowerShell:
